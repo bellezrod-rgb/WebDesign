@@ -3,11 +3,16 @@
 <head>
 <meta charset="utf-8">
 <title>Oceans Movies| Movie Site, Anabelle Rodriguez 2025</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <style>
 	header{
 		text-align:center;
 		padding: 20px;
-		background-color: white; 
+		margin: 20px;
+		background-color: white;
+		border-radius: 50px;
 	}
 	button{
 		width: 10%;
@@ -15,9 +20,18 @@
 		margin:auto;
 		background-color:transparent;
 		border:transparent;
+		display:inline-block;
+		font-family: "Montserrat", sans-serif;
+  		font-optical-sizing: auto;
+  		font-weight: 500;
+  		font-style: normal;
+		font-size: 25px;
+	}
+	body{
+		background-color:darkred;
 	}
 	button:hover{
-		background-image:url("dice.png");
+		background-image:url(dice.png);
 		background-size:cover;
 		background-position:center;
 		color:transparent;
@@ -29,19 +43,17 @@
 
 	video{
 		min-width:100%;
-		min-height:100%
 	}
-	ul{
-		
-	}
-	li{
-		list-style: none;
-		display:inline-block;
+	footer{
+		background-color: rgba(0,0,0,.75);
+		padding: 25px;
+		border-radius:20px;
 	}
 	</style>
 </head>
 
 <body>
+	<wrapper>
 	<header>
 		<img src="Oceans_Thirteen_movie_logo.jpg" class="logo">
 		<button>Home</button>
@@ -49,9 +61,12 @@
 		<button>Cast</button>
 		<button>Watch</button>
 	</header>
+	<div>
 	<video src="oceans trailer.mp4" muted loop auoplay type="video/mp4"></video>
+	</div>
 	<footer>
 	© 2025, Anabelle Rodriguez. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.
 	</footer>
+	</wrapper>
 </body>
 </html>
