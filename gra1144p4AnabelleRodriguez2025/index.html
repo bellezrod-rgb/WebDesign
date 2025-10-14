@@ -3,6 +3,15 @@
 <head>
 <meta charset="utf-8">
 <title>Broadway Theater | Anabelle Rodriguez, 2025</title>
+	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">	
+	
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap" rel="stylesheet">
+	
 <style type="text/css">
 body {
     margin: 0;
@@ -11,19 +20,28 @@ wrapper {
     width: 1366px;
     margin: auto;
     display: block;
+	background-color: black;
 }
+h1 {
+	 font-family: "Fascinate Inline", system-ui;
+		font-size: 60px;
+	}
 section {
     height: 1024px;
     background-size: cover;
     background-position: center center;
 }
 nav {
-    background-color: black;
+    background-color: gray;
 }
 ul {
     padding: 0;
     margin: 0;
 }
+	li {
+	font-family: "Eagle Lake", serif;
+	font-size: 30px;
+	}
 ul a {
     color: white;
 }
@@ -35,17 +53,54 @@ li:hover {
     background-color: red;
 }
 #home {
-    background-image: url(Theater_Inside.jpg);
-}
+    background-image: url("Theater_Inside.jpg");
+	}
 #media {
-    background-image: url(Hamilton_Broadway.jpg);
+    background-image: url("Hamilton_Broadway.jpg")
 }
 #location {
-    background-image: url(Theater_Outside.jpeg);
+    background-image: url("Theater_Outside.jpeg")
 }
 h2 {
     padding: 20px;
     margin: 0;
+    color: white;
+	font-family: "Eagle Lake", serif;
+	font-size: 80px;
+}
+
+.calendar {
+    margin: auto;
+    display: block;
+}
+#media h3 {
+    display: inline-block;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-shadow: 5px 5px 5px black;
+    max-width: 54%;
+    margin-top: 14px;
+}
+#location .map {
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.img {
+	max-width: 200px;	
+	}
+.logo {
+    max-width: 500px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 16px;
+    margin-bottom: 12px;
+    margin-left: 325px;
+	}
+h3 {
+    display: block;
+}
+footer {
     color: white;
 }
 </style>
@@ -53,40 +108,46 @@ h2 {
 
 <body>
 <wrapper>
-  <header><img src="" alt="">
-    <h1>This is the content for Layout H1 Tag</h1>
+  <header>
+	  <img src="broadway-logo.png" class=logo>
   </header>
   <section id="home">
     <nav>
       <ul>
-        <a href="#home"><li>Home</li></a>
+        <a href="#home"><li><img src="broadway-logo.png" class=img></li></a>
         <a href="#media"><li>Media</li></a>
         <a href="#location"><li>Location</li></a>
       </ul>
     </nav>
     <h2>Home</h2>
+	 <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=1&ctz=America%2FNew_York&showTitle=0&showCalendars=0&src=YmVsbGV6cm9kQGdtYWlsLmNvbQ&src=ZWE4NWFlYjE4ZGNhNGIwNzNmMjE1MWQ1ZjNhNTc1NjI5MTVlZTE2NDg0NWM5ZWY1MjcwYWQ4NmIyZTBiYmY4NkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZmFtaWx5MDE0NTM2NTg4MjgwOTE1Nzg2NDBAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039be5&color=%234285f4&color=%23d81b60&color=%230b8043" width="600" height="400" scrolling="no" frameborder="0" class="calendar" style="border:solid 1px #777"></iframe>
   </section>
 	  <section id="media">
     <nav>
       <ul>
-        <a href="#home"><li>Home</li></a>
+        <a href="#home"><li><img src="broadway-logo.png" class=img></li></a>
         <a href="#media"><li>Media</li></a>
         <a href="#location"><li>Location</li></a>
       </ul>
     </nav>
     <h2>Media</h2>
+    <iframe src="https://www.youtube.com/embed/lCDCP6m4Tsc?si=GANHcDyExG6U_Lan" width="560" height="315" frameborder="0" class="video" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <h3>Hamilton: An American Musical is a sung-and-rapped-through biographical musical with music, lyrics, and a book by Lin-Manuel Miranda. The musical covers the life of American Founding Father Alexander Hamilton and his involvement in the American Revolution and the political history of the early United States. Composed from 2008 to 2015, the music draws heavily from hip hop, as well as R&B, pop, soul, and traditional-style show tunes. It casts non-white actors as the Founding Fathers of the United States and other historical figures.
+
+</h3>
   </section>
   <section id="location">
     <nav>
       <ul>
-        <a href="#home"><li>Home</li></a>
+        <a href="#home"><li><img src="broadway-logo.png" class=img></li></a>
         <a href="#media"><li>Media</li></a>
         <a href="#location"><li>Location</li></a>
       </ul>
     </nav>
     <h2>Location</h2>
+	  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.944180246296!2d-73.98571362402764!3d40.76325243447651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2585665784711%3A0x5bbfed74cc606bf6!2sBroadway%20Theatre!5e0!3m2!1sen!2sus!4v1760126477169!5m2!1sen!2sus" width="600" height="450" class="map" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
   </section>
-	  <footer>Content for New footer Tag Goes Here</footer>
+	  <footer>© 2025, Anabelle Rodriguez. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</footer>
 </wrapper>
 </body>
 </html>
