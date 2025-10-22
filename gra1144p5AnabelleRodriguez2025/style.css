@@ -1,0 +1,22 @@
+@charset "utf-8";
+body {
+    margin: 0;
+    background-color: lightblue;
+}wrapper {
+    width: 1366px;
+    margin: auto;
+    display: block;
+}main {
+    height: 500px;
+}
+nav a li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav a li:hover {
+    background-color: red;
+}
+
+nav {
+    background-color: black;
+}
