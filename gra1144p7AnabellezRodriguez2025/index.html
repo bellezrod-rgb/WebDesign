@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Travel Website</title>
+<title>Anabelle Rodriguez, 2025 | Travel Website</title>
 <style type="text/css">
 #Tabs1 {
     border: none;
@@ -22,7 +22,7 @@ wrapper {
     margin: 32px auto;
     display: block;
     border-radius: 16px;
-    background-color: #000000;
+    background-color: rgba(0,0,0,0.25);
 }
 header {
     background-color: #E7EBF7;
@@ -38,19 +38,34 @@ header {
     background-color: transparent;
 }
 #Tabs1 li {
-    background-color: #FFFFFF;
+    background-color: rgba(255,255,255,.5);
     background-image: none;
     margin: 8px;
     text-align: center;
     border-width: thin;
     border-radius: 8px;
     border-style: solid;
+    color: rgba(4,89,235,1.00);
 }
 #Tabs1 li:hover {
+    border-radius: 8px;
     background-color: rgba(4,89,235,0.50);
+    border-width: thin;
+    border-style: solid;
 }
 #Tabs1 a {
     color: rgba(255,255,255,1.00);
+}
+#tabs1 div {
+    background-color: rgba(0,0,0,0.50);
+}
+.search {
+    background-color: rgba(4,89,235,0.50);
+}
+input, select {
+    border-radius: 3px;
+    margin: 2px;
+    padding: 10px;
 }
 </style>
 <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
@@ -77,19 +92,74 @@ header {
       Activities</a></li>
     </ul>
     <div id="tabs-1">
-      <p>Content 1</p>
+      <p>Flights</p>
+      <input type="text" placeholder="Leaving from">
+	  <input type="date">
+	  <input type="text" placeholder="Going to">
+      <input type="date">
+	  <select>
+	    <option value="0" selected="selected">Number of travelers</option>
+	    <option value="1">1</option>
+	    <option value="2">2</option>
+	    <option value="3">3</option>
+	    <option value="4">4</option>
+	    <option value="5">5</option>
+	  </select>
+	  <input type="submit" class="search" value="Search">
     </div>
     <div id="tabs-2">
-      <p>Content 2</p>
+      <p>Hotels</p>
+	  <input type="text" placeholder="Where to?">
+	  <input type="date">
+	  <input type="date">
+	  <select>
+	    <option value="0" selected="selected">Number of travelers</option>
+	    <option value="1">1</option>
+	    <option value="2">2</option>
+	    <option value="3">3</option>
+	    <option value="4">4</option>
+	    <option value="5">5</option>
+	  </select>
+	  <input type="submit" class="search" value="Search">
     </div>
     <div id="tabs-3">
-      <p>Content 3</p>
+      <p>Cars</p>
+	  <input type="text" placeholder="Pickup">
+	  <input type="date">
+	  <input type="time">
+		
+	  <input type="text" placeholder="Return">
+	  <input type="date">
+	  <input type="time">
+	  <input type="submit" class="search" value="Search">
     </div>
     <div id="tabs-4">
-      <p>Content 4</p>
+      <p>Cruises</p>
+	  <input type="text" placeholder="Where To">
+	  <input type="date">
+	  <select>
+	    <option value="0" selected="selected">Number of travelers</option>
+	    <option value="1">1</option>
+	    <option value="2">2</option>
+	    <option value="3">3</option>
+	    <option value="4">4</option>
+	    <option value="5">5</option>
+	  </select>
+	  <select>
+	    <option value="0">Duration of Trip</option>
+	    <option value="1">1-3 days</option>
+	    <option value="2">4-7 days</option>
+	    <option value="3">7-14 days</option>
+	    <option value="4">14-30+ days</option>
+	  </select>
+	  <input type="submit" class="search" value="Search">
     </div>
     <div id="tabs-5">
-      <p>Content 5</p>
+      <p>Activities</p>
+	  <input type="text" placeholder="Location">
+	  <input type="date">
+	  <input type="time">
+	  <input type="submit" class="search" value="Search">
     </div>
   </div>
 </wrapper>
